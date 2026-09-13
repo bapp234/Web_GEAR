@@ -1,0 +1,50 @@
+### ===== .NET / ASP.NET Core (backend/) ===== ###
+backend/**/bin/
+backend/**/obj/
+backend/**/*.user
+backend/**/.vs/
+backend/**/appsettings.Development.json
+backend/**/appsettings.Local.json
+*.dbmdl
+
+### ===== Node.js / Next.js / ReactJS (frontend/) ===== ###
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.turbo/
+
+### ===== WordPress (wordpress/) ===== ###
+wordpress/wp-config.php
+wordpress/wp-content/uploads/
+wordpress/wp-content/cache/
+wordpress/*.sql
+
+### ===== Docker ===== ###
+docker-compose.override.yml
+.docker/volumes/
+
+### ===== Secrets & Env chung ===== ###
+.env
+.env.local
+*.pem
+*.key
+secrets.json
+
+### ===== IDE / Editor ===== ###
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+### ===== Logs ===== ###
+*.log
+logs/
